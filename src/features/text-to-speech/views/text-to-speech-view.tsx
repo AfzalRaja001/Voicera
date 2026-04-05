@@ -1,0 +1,21 @@
+"use client";
+
+import { Settings } from "lucide-react";
+import { TextInputPanel } from "../components/text-input-panel";
+import { VoicePreviewPlaceholder } from "../components/voice-preview-placeholder";
+import { SettingsPanel } from "../components/settings-panel";
+import { defaultTTSValues, TextToSpeechForm } from "../components/text-to-speech-form";
+
+export function TextToSpeechView(){
+    return(
+        <TextToSpeechForm defaultValues={defaultTTSValues}>
+            <div className="flex flex-1 min-h-0 overflow-hidden">
+                <div className="flex flex-1 flex-col min-h-0">
+                    <TextInputPanel/> 
+                    <VoicePreviewPlaceholder/> 
+                </div>
+                <SettingsPanel/>
+            </div>
+        </TextToSpeechForm>
+    )
+}

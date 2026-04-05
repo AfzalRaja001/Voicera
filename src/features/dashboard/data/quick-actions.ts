@@ -10,7 +10,7 @@ export const quickActions : QuickAction[] = [
         title : "Narrate a Story",
         description : "Turn your stories into captivating audio experiences with our text-to-speech feature.",
         gradient : "from-cyan-400 to-cyan-50",
-        href : "/text-to-speech?=In a village tucked between rolling hills and a shimmering lake, there lived a man named Eli. Eli was known throughout the village for his extraordinary storytelling abilities. Every evening, children and adults alike would gather around the ancient oak tree in the village square to listen to Eli weave his magical tales. One evening, as the sun dipped below the horizon, Eli began to tell a story about a hidden treasure buried deep within the Enchanted Forest that bordered the village. The story was so vivid and enchanting that it felt as though the listeners were right there with him, embarking on an adventure filled with mystery, danger, and wonder."
+        href : "/text-to-speech?=text=In a village tucked between rolling hills and a shimmering lake, there lived a man named Eli. Eli was known throughout the village for his extraordinary storytelling abilities. Every evening, children and adults alike would gather around the ancient oak tree in the village square to listen to Eli weave his magical tales. One evening, as the sun dipped below the horizon, Eli began to tell a story about a hidden treasure buried deep within the Enchanted Forest that bordered the village. The story was so vivid and enchanting that it felt as though the listeners were right there with him, embarking on an adventure filled with mystery, danger, and wonder."
     },
     {
         title: "Record an Ad",
