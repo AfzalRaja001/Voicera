@@ -28,8 +28,8 @@ enum VoiceCategory{
   MOTIVATIONAL
   PODCAST
   ADVERTISING
-  VOICEOVERS
-  CORPRATE
+  VOICEOVER
+  CORPORATE
 }
 
 model Voice{
